@@ -1,0 +1,2 @@
+# MOTIONCUT_WEBDEVELOPMENT_INTERNSHIP_TASKS
+This repository contains webdevelopment tasks of motioncut
