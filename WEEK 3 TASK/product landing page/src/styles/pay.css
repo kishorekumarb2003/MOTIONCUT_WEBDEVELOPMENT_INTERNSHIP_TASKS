@@ -1,0 +1,246 @@
+
+  .options
+  {
+   text-align: center ;
+   position: relative;
+   bottom: 1em;
+   left: 5em;
+  font-family: 'Roboto Slab', serif;
+
+  }
+  .options1
+  {
+    position: relative;
+    top: 5em;
+   text-align: center ;
+   font-family: 'Roboto Slab', serif;
+
+   
+  }
+
+  
+ 
+  .options img{
+    width:250px;
+    height:200px;
+    
+  }
+  .options1 img{
+    width:250px;
+    height:200px;
+    
+  }
+  .Button button{
+    /* display:flex; */
+    padding: 10px 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: white;
+  
+  }
+
+  .Button h4{
+      position: absolute;
+      left: 0;
+      top: -60px;
+      background-color: black;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: .3s;
+  }
+  
+  .container10{
+    width: 100%;
+    border: 5px solid black;
+    height: 50vh;
+    width: 35vw;
+
+    
+  }
+
+  .lingesh input[type=text] {
+    border: 2px solid black;
+    width:14vw;
+    height:6vh;
+    right:auto;
+  }
+  .lingesh input[type=password] {
+    border: 3px solid black;
+    width:15vw;
+    height:5vh;
+  }
+  .lingesh ::placeholder{
+    font-size: 20px;
+  }
+  
+  
+  .inside{
+    width: 50%;
+    margin-top: 100px;
+    
+    
+  }
+  .b{
+      background-color: #4CAF50; 
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      margin-left: 40%;
+      font-size: 16px;
+    
+  }
+  .pot {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input__box
+  {
+    padding-top: 10px 0px;
+  }
+  .bb{
+    width:50%;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 28.3em;
+    left: 3em;
+    padding: 10px 30px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border-radius: 10px;
+    margin-left: 25%;
+  font-family: 'Roboto Slab', serif;
+  }
+  .bb1{
+    width:50%;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 30em;
+    left: 36em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 25%;
+  font-family: 'Roboto Slab', serif;
+  }
+  .b10{
+    background-color: #4CAF50; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: 30%;
+    position: relative;
+    font-size: 16px;
+    bottom: 2em;
+    
+  
+}
+.button60
+{
+  position: relative;
+  left: 25em;
+  top: 2em;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(30, 127, 230);
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin-left: 5px;
+}
+.rec_box
+{
+   position: relative;
+   background-color: #305884;
+   color: white;
+   bottom: 5em;
+  font-family: 'Baskervville';
+   padding: 10px 0px ;
+   height: 70px;
+   border-bottom:10px solid #FC8D76;
+   width: 80%;
+
+}
+
+.rec_box1 {
+  display: inline-block;
+  grid-gap: 1em;
+  width: fit-content;
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+  background-color: #F2F3FE;
+  top: 2em;
+  padding: 10px 20px;
+
+}
+
+.rec_box1 li{
+  line-height: 2;
+}
+#printablediv
+{
+  position: relative;
+  top: 5em;
+  height:10px;
+  margin: 0;
+}
+.foot
+{
+  font-family: 'Baskervville';
+
+  position: relative;
+  bottom: 20em;
+
+}
+.checkout__total
+{
+  background-color: #fea897;
+  margin-top: 25px;
+}
+.checkout__total b{
+  padding: 10px 20px;
+}
+.bgbox
+{
+  background-color: #F2F3FE;
+  padding: 10px 20px;
+  width: 100%;
+}
+.bgbox1
+{
+  background-color: #F2F3FE;
+  width: 100%;
+  height: 50px;
+}
+.bgbox1 b{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.billbox
+{
+  background-color: #FFF9EA;
+  padding: 10px 20px;
+  margin-top: 10px;
+  position: relative;
+  top: 1.5em;
+}
+.billbox1
+{
+  background-color: #FFF9EA;
+  margin-top: 20px;
+  position: relative;
+  top: 1em;
+}
+.billbox1 h6{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.billbox1 b{
+  padding-top: 10px;
+}

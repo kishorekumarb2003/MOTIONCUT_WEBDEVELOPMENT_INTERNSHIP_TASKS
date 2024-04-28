@@ -1,0 +1,32 @@
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body
+  {
+    scroll-behavior:smooth;
+    
+  }
+.box_container{
+    width: 500px;
+    background: rgb(255, 255, 255) ;
+    margin-left: 35%;
+    display: flex;
+    padding-bottom: 20px;
+    position: relative ;
+    right: 25em;
+    margin-top: 4%;
+    overflow: hidden;
+}
+.imagecontainer_1
+{
+    position: absolute;
+    left: 40.5em;
+    background-size: cover;
+    width: 50%;
+}

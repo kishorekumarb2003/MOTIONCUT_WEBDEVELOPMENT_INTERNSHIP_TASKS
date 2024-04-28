@@ -1,0 +1,101 @@
+/* Review page Style */
+.reviewbody{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgreen;
+  font-family: 'Roboto Slab', serif;
+
+  }
+  .reviewBox *{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+  .reviewBox{
+    width: 100%;
+    margin: auto;
+    padding: 15vh 20vh;
+    text-align: center;
+  }
+  .reviewBorder{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px skyblue;
+    background-color: white;
+  }
+  .infoReview{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    display: flex;
+    align-items: center;
+  }
+  .reviewLabel{
+    flex: 2;
+    text-align: right;
+    margin-right: 1vw;
+  }
+  
+  .reviewInput{
+    flex: 3;
+    text-align: left;
+    margin-left: 1vw;
+  }
+  .infoReview input{
+    width: 20vw;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .reviewCheckbox{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .checkboxTitle{
+    flex: 2;
+    text-align: right;
+  }
+  .checkboxOption{
+    display: flex;
+    flex: 3;
+  }
+  .checkboxOptions{
+    margin-right: 20px;
+    margin: auto;
+  }
+  .reviewSuggestion{
+    display: flex;
+  }
+  .reviewSuggestion textarea{
+    width: 20vw;
+    height: 10vh;
+  }
+  .Suggestionbox{
+    flex: 3;
+    text-align: left;
+    margin-left: 1vw;
+  }
+  .Suggestiontitle{
+    flex: 2;
+    text-align: right;
+    margin-right: 1vw;
+  }
+  .reviewSubmit{
+    margin-top: 2vh;
+  }
+  .reviewSubmit input{
+    height: 4vh;
+     width:10vw;
+  }
+
+   .button55
+{
+  border-radius: 5px;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  left: 2em;
+  padding: 10px 20px;
+  margin: auto;
+  background-color: #16c8ce;
+  color: rgb(255, 255, 255);
+  
+}

@@ -1,0 +1,39 @@
+.searchcontainer,
+.downloaddiv button {
+  padding: 5px 15px;
+  border: 1px solid #0c0b0b;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2em;
+  font-family: 'Roboto Slab', serif;
+}
+.downloadbutton
+{
+  background-color:#192A56;
+  color: white;
+}
+.searchcontainer input {
+  border: none;
+}
+.searchcontainer i {
+   position: relative;
+}
+
+.searchcontainer input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchcontainer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .searchcontainer input {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .downloaddiv select {
+    width: 100% !important;
+    font-size: 0.8rem;
+  }
+}

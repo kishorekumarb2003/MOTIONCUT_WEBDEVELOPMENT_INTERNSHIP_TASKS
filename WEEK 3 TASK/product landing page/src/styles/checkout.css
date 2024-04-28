@@ -1,0 +1,35 @@
+.checkoutbill {
+  background: #fdfdfd;
+  padding: 30px;
+  position: relative;
+  top: 3em;
+  border:  1px solid rgb(238, 232, 232);
+  border-radius: 10px;
+  font-family: 'Roboto Slab', serif;
+  
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+tbody
+{
+  border: 1px solid white;
+}
+thead
+{
+  border: 1px solid white;
+
+}
+
+
+.checkouttotal {
+  border-top: 3px solid rgb(11, 10, 10);
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkoutbill h6 {
+    font-size: 0.9rem;
+  }
+  .checkoutbill {
+    margin-top: 40px;
+  }
+}
