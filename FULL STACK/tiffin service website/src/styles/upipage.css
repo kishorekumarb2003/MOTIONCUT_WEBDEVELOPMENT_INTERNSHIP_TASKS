@@ -1,0 +1,140 @@
+.upibody{
+    min-height: min-content;
+    width: 100%;
+}
+.upibody *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.upiBorder{
+    position: relative;
+    top: 2em;
+    height: 70vh;
+    min-width: fit-content;
+    width: 35vw;
+    background-color: white;
+    padding: 10px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 10em;
+}
+.upiBorder1{
+    position: relative;
+    top: 5em;
+    height: 70vh;
+    min-width: fit-content;
+    width: 35vw;
+    background-color: white;
+    padding: 10px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 25em;
+}
+.upiOR
+{
+    position: absolute;
+    bottom: 15em;
+    left: 45em;
+    width: fit-content;
+}
+.qrimg img
+{
+    width: 350px;
+    position: absolute;
+    left: 55em;
+    bottom: 10em;
+
+}
+.success_div i
+{
+    font-size: 60px;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+}
+.success_div h3
+{
+    position: relative;
+    top: 25px;
+}
+.qrtitle 
+{
+    position: absolute;
+    bottom: 4em;
+    left: 37.5em;
+    font-size: 25px;
+    width:fit-content;
+}
+.upiTitle{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.upiPaymentBox p{
+    margin: 0;
+    padding-top: 8px;
+}
+.UPIBHIM{
+    font-size: 18px;
+    color: grey;
+}
+.upiPayName{
+    height: 7vh;
+    width: 100%;
+    font-size: 60px;
+    
+}
+.upiPayName i{
+position: relative;
+bottom: 20px;
+}
+.upiIdbox{
+    background-color: white;
+    border: 1px solid #d8caca;
+    margin-top: 10px;
+    height: 40px;
+}
+.upiIdbox select{
+    border: none;
+    width: 30%;
+    height: 38px;
+
+    padding-left: 10px;
+    background-color: aliceblue;
+}
+.upiIdbox input{
+    height: 35px;
+    width: 70%;
+    border: none;
+    text-decoration: none;
+}
+.upiIdbox input:focus{
+    outline: none;
+}
+.upiIdbox select:focus{
+    outline: none;
+}
+.upiPay{
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(21, 213, 146);
+    align-items: center;
+    justify-content: center;
+}
+.upiPay b{
+    color: white;
+}
+.upiInfo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.upiInfoRight{
+    flex: 1;
+    text-align: right;
+    color: rgb(0, 183, 255);
+}
+.upiInfoLeft{
+    flex: 1;
+    text-align: left;
+}

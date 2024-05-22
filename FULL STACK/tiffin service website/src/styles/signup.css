@@ -1,0 +1,10 @@
+
+
+.boxcontainer{
+    width: 500px;
+    background: rgb(255, 255, 255) ;
+    margin-left: 35%;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}

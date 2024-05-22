@@ -1,0 +1,11 @@
+.commonsection {
+  background: linear-gradient(#212245b2, #212245b2),
+    url("https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+}

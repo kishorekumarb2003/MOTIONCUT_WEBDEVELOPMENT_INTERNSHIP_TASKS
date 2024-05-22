@@ -1,0 +1,901 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:wght@500&family=Oleo+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400&family=Josefin+Sans:wght@100;400&family=Kanit:wght@500&family=Montserrat:wght@500&family=Noto+Serif+Oriya:wght@500&family=Oleo+Script:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  scroll-behavior: smooth;
+}
+/* container1 css and navbar */
+body {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  bottom: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  /* background-color: #EBE9E6; */
+}
+
+.navigation {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 36em;
+  top: 0px;
+  font-family: "Baskervville", serif;
+  /* font-family: 'Roboto Slab', serif; */
+  background-color: white;
+  z-index: 1500;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navigation > .navigation-header {
+  display: inline;
+}
+
+.navigation > .navigation-header > .navigation-title {
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+}
+
+.navigation > .navigation-btn {
+  display: none;
+}
+
+.navigation > .navigation-links {
+  display: inline;
+  float: right;
+  font-size: 20px;
+}
+
+.navigation > .navigation-links > .logo {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 0em;
+  left: 0em;
+}
+
+.button40 {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  font-size: 20px;
+}
+.button41 {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.navigation-links > .logo:hover {
+  height: 70px;
+  border-bottom: 5px solid royalblue;
+
+  position: relative;
+
+  border-bottom-width: 4px;
+}
+
+.navigation > #navigation-check {
+  display: none;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000000;
+}
+
+.preloader img {
+  width: 20rem;
+  height: 20rem;
+}
+.preloader1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.preloader1 img {
+  width: 20rem;
+  height: 20rem;
+}
+.preloader1 h2 {
+  font-family: "Baskervville";
+}
+.preloader2 {
+  position: relative;
+  top: 3em;
+  left: 35em;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader2 img {
+  width: 20rem;
+  height: 20rem;
+}
+.preloader2 h2 {
+  font-family: "Baskervville";
+}
+.preloader3 {
+  position: relative;
+  top: 3em;
+  left: 35em;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader3 img {
+  width: 20rem;
+  height: 20rem;
+}
+.preloader3 h2 {
+  position: relative;
+  top: 1em;
+  left: 2.5em;
+  font-family: "Baskervville";
+}
+
+@media (max-width: 800px) {
+  .navigation > .navigation-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navigation > .navigation-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    padding: 13px;
+  }
+
+  .navigation > .navigation-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 5px;
+    top: 4px;
+    position: relative;
+    border-top: 4px solid rgb(0, 0, 0);
+  }
+  .navigation > .navigation-links {
+    position: absolute;
+    display: block;
+    text-align: center;
+
+    width: 100%;
+    height: 15px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 55px;
+    left: 0px;
+    z-index: 1000;
+
+    background-color: rgb(252, 254, 255);
+  }
+  .navigation > .navigation-links > .logo {
+    display: block;
+    width: 100%;
+  }
+  .navigation-links > .logo:hover {
+    border-bottom: none;
+  }
+  .navigation > #navigation-check:not(:checked) ~ .navigation-links {
+    height: 0px;
+    overflow: hidden;
+    width: 200px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+  .navigation > #navigation-check:checked ~ .navigation-links {
+    height: calc(65vh - 50px);
+    position: relative;
+    top: 3.5em;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-radius: 5px;
+  }
+}
+
+.maintext {
+  /* font-family:  'Montserrat', sans-serif; */
+  font-family: "Baskervville", serif;
+}
+
+.fulltext {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  animation: animate 20s ease-in-out infinite;
+  background-size: cover;
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+.landing {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 105vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url("https://images.pexels.com/photos/1132586/pexels-photo-1132586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+  25% {
+    background-image: url("https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+  50% {
+    background-image: url("https://images.pexels.com/photos/2233730/pexels-photo-2233730.jpeg");
+  }
+  75% {
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/17/11/03/cocktail-3327242_1280.jpg");
+  }
+}
+.maintext {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  padding: 2em;
+  padding-top: 8em;
+}
+.tagline1 {
+  color: rgb(250, 244, 244);
+  font-weight: 900;
+  font-size: 2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.3em;
+  font-family: "Cormorant Upright", serif;
+}
+.tagline2 {
+  color: rgb(248, 242, 242);
+  font-size: 2em;
+  padding-left: 0.3em;
+  font-family: "Cormorant Upright", serif;
+}
+
+.maintext div {
+  margin: 0.75em;
+}
+
+.maintext .button1 {
+  width: 8vw;
+  position: relative;
+  border-radius: 5px;
+  padding: 0.7em;
+  margin-top: 3em;
+  margin-left: 2.5em;
+  color: rgb(0, 0, 0);
+  bottom: 22em;
+
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.background {
+  margin-bottom: 10em;
+}
+
+.background h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Cormorant Upright", serif;
+
+  font-size: 2.8rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-top: 100px;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+}
+.background__text h1 {
+  position: relative;
+  top: 1em;
+}
+.maintext .t1 {
+  margin-top: 12em;
+  height: 100px;
+  font-size: 35px;
+}
+.maintext .t2 {
+  height: 60px;
+  position: relative;
+  bottom: 150px;
+  height: 100px;
+  font-size: 35px;
+}
+.maintext .t3 {
+  height: 60px;
+  position: relative;
+  bottom: 300px;
+  font-size: 23px;
+  left: 1em;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 60px;
+  font-size: 0.7em;
+  font-style: normal;
+}
+
+.message {
+  color: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.5rem;
+  left: 370px;
+  animation: openclose 10s ease-in-out infinite;
+}
+
+.word1,
+.word2,
+.word3,
+.word4 {
+  font-family: "Cormorant Upright", serif;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .background h1 {
+    font-size: 35px;
+    width: fit-content;
+  }
+
+  .maintext .t1 {
+    font-size: 30px;
+    margin-top: 10em;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .maintext .t3 {
+    position: relative;
+    bottom: 12em;
+    font-size: 24px;
+  }
+  .maintext .button1 {
+    width: 25vw;
+
+    position: relative;
+    margin-top: 5em;
+    border-radius: 5px;
+    margin-left: 2.5em;
+    color: rgb(15, 12, 12);
+    bottom: 22em;
+
+    background-color: rgb(251, 250, 250);
+    font-size: 1em;
+  }
+  .button1:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+  }
+  .container2 {
+    position: relative;
+    bottom: 2em;
+  }
+}
+
+/* container2 css dishes */
+.text {
+  position: relative;
+  color: #000000;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  padding-top: 4em;
+  height: 140px;
+  z-index: 100;
+}
+.container2 {
+  position: relative;
+  top: 40em;
+}
+.text1 {
+  position: relative;
+  padding-top: 30px;
+  margin-top: 40px;
+  letter-spacing: 3px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  color: rgb(7, 7, 7);
+}
+.List ul li {
+  display: inline-block;
+  margin: 40px;
+  position: relative;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 300;
+  bottom: 1em;
+}
+.list1 {
+  border-bottom: 2px solid #f7c7b2;
+  border-width: 5px;
+}
+.imagediv {
+  display: flex;
+
+  flex-direction: row;
+  position: relative;
+  bottom: 2em;
+  gap: 20px;
+}
+
+.imagediv h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Cormorant Upright", serif;
+
+  font-size: 2.7rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-top: 100px;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+}
+@media (max-width: 800px) {
+  .imagediv {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.food-img:hover h1 {
+  top: -98px;
+}
+.food-img {
+  position: relative;
+  height: 310px;
+  overflow: hidden;
+  /* width: 100%; */
+}
+.button10 {
+  color: white;
+}
+
+.imagediv img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.food-img h1 {
+  position: absolute;
+  left: 0;
+  top: -150px;
+  background-color: #000000;
+
+  color: white;
+  text-transform: capitalize;
+  /* padding: 10px 20px; */
+  font-size: 22px;
+  font-weight: 600;
+  transition: 0.3s;
+  width: 80px;
+}
+
+.img4,
+.img5,
+.img5,
+.img6,
+.img7,
+.img8 {
+  width: 250px;
+}
+
+/* container3 video and contentbox css */
+
+.button5:hover {
+  transform: scale(1.2) translate(5px);
+  transition: 0.5s;
+  background-color: white;
+  color: rgb(2, 2, 3);
+}
+
+.container3 {
+  display: flex;
+  top: 80em;
+  min-height: 30vh;
+  min-width: 100%;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .container3 {
+    top: 180em;
+  }
+}
+video {
+  mix-blend-mode: multiply;
+}
+.contentbox {
+  background: rgba(47, 38, 38, 0.8);
+  width: 100%;
+}
+/* .overlay {
+    
+    position:absolute;
+    top:20em;
+  
+    z-index: 100;
+    font-family: 'Cormorant Upright', serif;
+  
+
+   
+  } */
+
+/* .button5
+{
+  border-radius: 2px solid black;
+  font-size: 20px;
+  padding: 20px 30px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  z-index: 100;
+
+  
+} */
+
+.overlay {
+  display: flex;
+  position: absolute;
+  padding: 20px 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 5px solid white;
+  font-family: "Baskervville", serif;
+  z-index: 100;
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+}
+.overlay button {
+  width: 180px;
+  height: 60px;
+
+  font-size: 20px;
+  border: 4px solid white;
+  background-color: transparent;
+  margin: 100px;
+}
+.overlay button:hover {
+  transform: scale(1.2) translate(5px);
+  transition: 0.5s;
+  background-color: white;
+  color: rgb(2, 2, 3);
+}
+.overlay h2 {
+  font-size: 40px;
+  margin-bottom: 2em;
+  padding-bottom: 20px;
+  border-bottom: 6px dashed white;
+}
+.overlay p {
+  font-size: 35px;
+}
+
+@media (max-width: 900px) {
+  .overlay {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Baskervville", serif;
+    z-index: 100;
+    width: 80%;
+    height: 250px;
+    margin: auto;
+  }
+  .overlay button {
+    width: 100px;
+    height: 50px;
+    font-size: 10px;
+    padding: 5px;
+    background-color: transparent;
+    position: relative;
+    bottom: 10em;
+  }
+  .overlay button:hover {
+    transform: scale(1.2) translate(5px);
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(2, 2, 3);
+  }
+  .overlay h2 {
+    margin-bottom: 1em;
+    padding-bottom: 20px;
+    border-bottom: 4px dashed white;
+    font-size: 15px;
+  }
+  .overlay p {
+    font-size: 12px;
+  }
+}
+
+/* container4 css bookingtable */
+
+.container4 {
+  position: relative;
+  top: 52em;
+  overflow: hidden;
+  z-index: 50;
+}
+.container4 p {
+  font-family: "Montstar", serif;
+}
+.image9 {
+  width: 50%;
+  float: right;
+  height: 500px;
+}
+
+.button30 {
+  border-radius: 2px solid black;
+  font-size: 20px;
+  padding: 10px 20px;
+  position: relative;
+  left: 1px;
+  top: 30px;
+  bottom: 200px;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(6, 6, 6);
+  background-color: rgb(248, 248, 248);
+  font-family: "Montstar", serif;
+}
+.button30:hover {
+  transition: 0.5s;
+  background-color: rgb(47, 199, 199);
+}
+
+.bookcontainer {
+  position: relative;
+  left: 40px;
+  top: 26em;
+  width: 200px;
+}
+.textbox3 {
+  align-items: center;
+  justify-content: center;
+}
+
+.textbox3 h1 {
+  color: black;
+  font-family: "Cormorant Upright", serif;
+
+  font-size: 2.8rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-top: 100px;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+}
+.textbox3 p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container4 {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: 125em;
+
+    color: rgb(0, 0, 0);
+  }
+  .textbox3 h1 {
+    position: relative;
+    bottom: 8rem;
+  }
+  .textbox3 p {
+    display: inline;
+    position: relative;
+    bottom: 8em;
+    font-size: 15px;
+  }
+  .button30 {
+    position: absolute;
+
+    margin: 17em -1em;
+    padding: 25px 10px;
+    padding-top: 5px;
+    left: 1em;
+    font-size: 10px;
+    top: 12em;
+  }
+}
+
+/* container5 css map  */
+
+.container5 {
+  position: relative;
+  top: 52.1em;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .container5 {
+    position: relative;
+    top: 160em;
+  }
+}
+
+/* footer css */
+
+.footer {
+  margin: 1rem auto;
+  overflow: auto;
+  background-color: #dce4e7;
+  top: 56.5em;
+  position: relative;
+  font-family: "Cormorant Upright", serif;
+  z-index: 1000;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer,
+.footer a {
+  color: #0a0808;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.footer li {
+  line-height: 2;
+}
+
+footer .fontbird :hover {
+  transform: scale(1.2) translate(3px);
+  color: rgb(29, 54, 198);
+}
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    top: 175em;
+  }
+}
